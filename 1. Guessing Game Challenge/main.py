@@ -1,3 +1,4 @@
+"""Module providing a Guessing Game Challenge."""
 import random
 
 print("WELCOME TO GUESS ME!")
@@ -20,7 +21,6 @@ while True:
         print('OUT OF BOUNDS! Please try again: ')
         continue
 
-
     if guess==num:
         print(f'CONGRATULATIONS, YOU GUESSED IT IN ONLY {len(guesses)} GUESSES!!')
         break
@@ -37,11 +37,4 @@ while True:
             print('WARM')
         else:
             print('COLD')
-        
-    
-
-    
-
-    
-
-
+            
